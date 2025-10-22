@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        /* Header */
+        header {
+            background: black;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .p1 {
+            font-size: 1.2rem;
+            margin-top: 8px;
+            padding-bottom:9px  ;
+            border-bottom: 3px solid white;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;            
+            margin: 0 15px ;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections  */
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 20px;
+            border-bottom: 3px solid black;
+            padding-bottom: 10px;
+        }
+
+        /* About */
+        .about {
+            background: #f4f4f4;
+            
+        }
+
+        /* Educational Qualifications */
+        .edtable {
+            width: 100% ;
+            height:120px ;
+        }
+
+        .gr{
+            color: rgb(48, 4, 4)    ;
+            margin: 0px 0px    
+        }
+
+        tr{
+            text-align: center;
+        }
+        
+        /* Skills */
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            background: #f4f4f4;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid black;
+        }
+
+        /* Projects */
+        .projects {
+            background: #f4f4f4;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        .project h3 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        /* Contact */
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }   
+
+        /* Footer */
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .fback {
+            text-align: center ;
+            background: #333;;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 id="strt">Arush Garg  </h1>
+        <p class="p1">1st Year B.Tech CSE (AIML) Student at KIET Group of Institutions </p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="edu">Educational Qualifications</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer passionate about creating websites and applications. I enjoy learning new technologies and solving problems through code.</p>
+        <p>I have experience working with HTML,CSS.</p>
+    </section>
+
+    <!-- Educational Qualifications -->
+    <section id="edu" class="edu">
+        <h2>Educational Qualifications</h2>
+        <table class="edtable"  cellpadding="10" cellspacing="0" border="" "1">
+            <tr>
+                <th><em>School/College Name</i></th> 
+                <th><em>Board/University</em></th>
+                <th><em>Score</em></th>
+                <th><em>Year of Passing</em></th>
+            </tr>
+            <tr>
+                <td>DDPS</td>
+                <td>CBSE</td>
+                <td>89.8%</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>DDPS</td>
+                <td>CBSE</td>
+                <td>93.8%</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>KIET</td>
+                <td>AKTU</td>
+                <td>___ CGPA</td> 
+                <td>2029</td>
+            </tr>
+        </table>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>C</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A responsive travel website built with HTML, CSS. Features include destinations gallery, list of places to visit. <br> <br>
+            GitHub Repository:-<a href="https://github.com/Arush07-afk/Explore-The-World-202501100400086" class="gr"> Explore The World</a> </p>
+        </div>
+
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>A responsive art gallery website built with HTML, CSS. Features include many popular art and some key information about them. <br> <br>
+            GitHub Repository:- <a href="https://github.com/Arush07-afk/Vivid-Visions" class="gr">Vivid Visions</a> </p>
+        </div>
+
+        <div class="project">
+            <h3>Project Three</h3>
+            <p>Portfolio website with clean design and with smooth navigation.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+
+            <p><strong>Email:</strong> gargarush07@gmail.com</p>
+            <p><strong>Phone:</strong> 7011116500</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/arush-garg-012860380/</p>
+            <p><strong>GitHub:</strong> github.com/Arush07-afk</p>
+        </div>
+    </section>
+
+         <div  class="fback"><a href="#strt">Back to Top</a></div>
+    <!-- Footer -->
+    <footer>
+       
+        <p> &copy All Rights Reserved</p>
+    </footer>
+</body>
+</html>
