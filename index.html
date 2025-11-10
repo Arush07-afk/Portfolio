@@ -4,134 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            color: black;
-        }
-
-        /* Header */
-        header {
-            background: black;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        .p1 {
-            font-size: 1.2rem;
-            margin-top: 8px;
-            padding-bottom:9px  ;
-            border-bottom: 3px solid white;
-        }
-
-        nav {
-            margin-top: 1rem;
-        }
-
-        a {
-            color: white;
-            text-decoration: none;            
-            margin: 0 15px ;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        /* Sections  */
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        h2 {
-            color: black;
-            margin-bottom: 20px;
-            border-bottom: 3px solid black;
-            padding-bottom: 10px;
-        }
-
-        /* About */
-        .about {
-            background: #f4f4f4;
-            
-        }
-
-        /* Educational Qualifications */
-        .edtable {
-            width: 100% ;
-            height:120px ;
-        }
-
-        .gr{
-            color: rgb(48, 4, 4)    ;
-            margin: 0px 0px    
-        }
-
-        tr{
-            text-align: center;
-        }
-        
-        /* Skills */
-        .skills-list {
-            list-style: none;
-        }
-
-        .skills-list li {
-            background: #f4f4f4;
-            padding: 10px;
-            margin: 10px 0;
-            border-left: 4px solid black;
-        }
-
-        /* Projects */
-        .projects {
-            background: #f4f4f4;
-        }
-
-        .project {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border: 1px solid #ddd;
-        }
-
-        .project h3 {
-            color: black;
-            margin-bottom: 10px;
-        }
-
-        /* Contact */
-        .contact-info {
-            margin-top: 20px;
-        }
-
-        .contact-info p {
-            margin: 10px 0;
-        }   
-
-        /* Footer */
-        footer {
-            background: black;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .fback {
-            text-align: center ;
-            background: #333;;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <!-- Header -->
@@ -139,11 +12,11 @@
         <h1 id="strt">Arush Garg  </h1>
         <p class="p1">1st Year B.Tech CSE (AIML) Student at KIET Group of Institutions </p>
         <nav>
-            <a href="#about">About Me</a>
-            <a href="edu">Educational Qualifications</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a id="navlinks" href="#about">About Me</a>
+            <a id="navlinks" href="#edu">Educational Qualifications</a>
+            <a id="navlinks" href="#skills">Skills</a>
+            <a id="navlinks" href="#projects">Projects</a>
+            <a id="navlinks" href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -157,7 +30,7 @@
     <!-- Educational Qualifications -->
     <section id="edu" class="edu">
         <h2>Educational Qualifications</h2>
-        <table class="edtable"  cellpadding="10" cellspacing="0" border="" "1">
+        <table class="edtable"  cellpadding="10" cellspacing="0" border="1">
             <tr>
                 <th><em>School/College Name</i></th> 
                 <th><em>Board/University</em></th>
@@ -228,8 +101,8 @@
 
             <p><strong>Email:</strong> gargarush07@gmail.com</p>
             <p><strong>Phone:</strong> 7011116500</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/arush-garg-012860380/</p>
-            <p><strong>GitHub:</strong> github.com/Arush07-afk</p>
+            <p><strong>LinkedIn:</strong><a href="linkedin.com/in/arush-garg-012860380/">Arush Garg</a></p>
+            <p><strong>GitHub:</strong><a href="github.com/Arush07-afk">Arush07-afk</a></p>
         </div>
     </section>
 
